@@ -1,0 +1,48 @@
+[
+    {
+      "cols": [
+        {
+          "cols": 6,
+          "type": "text",
+          "prop": "firstname",
+          "name": "firstname",
+          "label": "First name"
+        },
+        {
+          "cols": 6,
+          "type": "text",
+          "prop": "lastname",
+          "name": "lastname",
+          "label": "Last name"
+        }
+      ]
+    },
+    {
+      "cols": [
+        {
+          "cols": 6,
+          "type": "number",
+          "prop": "age",
+          "name": "age",
+          "label": "Age"
+        },
+        {
+          "cols": 6,
+          "type": "select",
+          "prop": "gender",
+          "name": "gender",
+          "label": "Gender",
+          "options": [
+            {
+              "value": "male",
+              "text": "Male"
+            },
+            {
+              "value": "female",
+              "text": "Female"
+            }
+          ]
+        }
+      ]
+    }
+  ]
